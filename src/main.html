@@ -9,14 +9,28 @@
     <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="../node_modules/lodash/lodash.min.js"></script>
     <script src="js/main.js"></script>
+    <link rel="stylesheet" href="js/main.css" type="text/css"/>
 
     <title>Form Designer</title>
+    
 </head>
 
 <body>
-<div>
-    <div id="container"></div>
-</div>
+    <div id="container">
+    </div>
+    <button id="add" onclick="addForm()">添加</button>&nbsp;
+    &nbsp;&nbsp;&nbsp;<button id="preview" text="预览" onclick="Preview()">预览</button>
+    <button id="edit" onclick="Edit()">编辑</button>
+    <div id="select_add_form">
+    <p>选择要添加的字段类型</p>
+    <select>
+        <option id="add_text" value="1">添加文本</option>
+        <option id="add_date" value="2">添加日期</option>
+    </select>
+    </br>
+    <button id="add_sure" onclick="addSure()">确定</button>
+    <button id="close" onclick="Close()">关闭</button>
+    </div>
 </body>
 </html>
 

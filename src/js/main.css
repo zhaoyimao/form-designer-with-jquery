@@ -1,0 +1,41 @@
+#select_add_form{
+    width:200px;
+    height: 160px;
+     margin-top:20px;
+    margin:auto; 
+    padding:28px;
+    border:1px #111 solid;
+    display:none;  
+    font-size: 20px;
+    text-align: center;
+}
+#select_add_form select{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+}
+
+#select_add_form button{
+    margin-top: 20px;
+    font-size: 15px;
+    height: 30px;
+    width: 60px;
+}
+button{
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+}
+#container p{
+    height: 30px;
+    width: 300px;
+    margin: 2px 0px 2px 0px;
+}
+#container p input{
+    height: 3opx;
+    width: 160px;
+    padding: 0px;
+}
+#edit{
+    display: none;
+}
